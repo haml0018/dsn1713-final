@@ -1,0 +1,144 @@
+
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+
+$primary: #AC1F2D;
+$secondary: #EE2619;
+$success: #D9D9D9;
+$info: #59C1EF;
+$warning: #FFF689;
+$danger: #7B7B7B;
+$light: #FFFFFF;
+$dark: #000000;
+
+
+
+.headericons {
+    color: #FFFFFF;
+}
+
+.footertext {
+    color: #FFFFFF;
+}
+
+.leaguetext {
+    color: #FFFFFF;
+}
+
+.nobullets {
+    list-style-type: none;
+}
+
+.herobanner {
+    background-image: url(/photos/Ottawa-67sHERO.jpg);
+    background-size: cover;
+}
+
+.heroH1 {
+    color: $primary !important;
+    font-weight: bold;
+    font-size: 5.5rem;
+}
+
+.heroH2 {
+    color: $light !important;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 7rem;
+}
+
+.heroH3 {
+    color: $light !important;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4rem;
+}
+
+.heroButton {
+    color: $light !important;
+    background-color: $primary !important;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.mainH1 {
+    color: $primary !important;
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.newsCard {
+    background-color: $primary !important;
+}
+
+.newsCardH2 {
+    color: $light !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.newsCardText {
+    color: $light !important;
+}
+
+.newsCardLink {
+    color: $primary !important;
+    background-color: $light !important;
+}
+
+.sideListSocials {
+    text-align: end
+}
+
+.sideListHeading {
+    font-size: 3.5rem;
+    font-weight: bold
+}
+
+.sideListStats {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $primary !important;
+    text-decoration: none;
+}
+
+.dropdown-toggle.sideListStatsBtn {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $primary !important;
+    background-color: $light !important;
+    outline: $light !important;
+    border: none;
+}
+
+.shopCardSize {
+    background-color: $light !important;
+    border: none;
+}
+
+.dropdown-toggle.shopSort {
+    background-color: $light !important;
+    border: none;
+    color: $primary !important;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contactH2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: $dark !important;
+}
+
+.contactH3 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: $primary !important;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
